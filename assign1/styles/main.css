@@ -1,0 +1,167 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+  
+  /*buttons */
+button,input[type="submit"] {
+  background-color: #1a1a1b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+  
+button:hover,input[type="submit"]:hover {
+  background-color: #ff69b4;
+}
+  
+a {
+  color: #020202;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin: 10px;
+}
+  
+  a:hover {
+  color: #ff1493;
+  text-decoration: underline;
+}
+  
+.gamecontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  width: 350px;
+  min-height: 400px;
+  justify-content: space-between;
+}
+  
+h1 {
+  color: #110d0f;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+  
+
+h2 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+  
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+}
+  
+button {
+  flex: 1;
+  margin: 0 10px;
+  padding: 15px 25px;
+  border-radius: 50px;
+}
+  
+
+p {
+  margin-top: 20px;
+  font-size: 1rem;
+  color: #333;
+}
+  
+/*---------------------------- Form container ------------------------*/
+.formcontainer {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+}
+  
+form div {
+    margin-bottom: 15px;
+    text-align: left;
+}
+  
+
+input{
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+    
+
+input:focus {
+    border-color: #ff1493;
+  } 
+  
+  .error {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 5px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  /* ---------------------High scores----------------------------*/
+  .scorescontainer {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th {
+    background-color: #0b0a0a;
+    color: white;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: left;
+  }
+  
+  td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 1rem;
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
